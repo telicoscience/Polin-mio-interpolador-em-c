@@ -1,7 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
-#include "/home/telico/gaussSolver.c"
-
+#include "/home/telico/gaussSolver.c" //edite esta linha para indicar o endereço de gaussSolver.c
 #include "math.h"
 
 int interpolation(int n , double  pontos[n][2], double  X[n], double Y[n]){
